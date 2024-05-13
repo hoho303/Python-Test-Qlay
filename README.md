@@ -30,3 +30,7 @@ You can see the details of the training process for each model in the correspond
 - [Audio Speech Recognition](asr/README.md)
 - [Grammar Correction](grammar/README.md)
 
+# 4. Demo
+You can see the demo of the project in the video below:
+https://drive.google.com/file/d/1RzBLR_xwoIwhL9Zknp4fxeE0o9DtgCxs/
+
