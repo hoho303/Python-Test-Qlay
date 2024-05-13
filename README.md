@@ -21,7 +21,7 @@ python voice_separate.py https://www.youtube.com/watch?v=54AYOd5S7uo --num-speak
 
 ## 2.2 Score Accent
 ```
-python score_accent.py <input_file> --num-speakers --out-file <output_file>
+python score_accent.py <input_url> --num-speakers --out-file <output_file>
 ```
 
 # 3. Training

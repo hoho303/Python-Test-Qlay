@@ -17,7 +17,7 @@ def get_diff(s1, s2):
     s1 = set(s1.split())
     s2 = set(s2.split())
 
-    t_diffs = list(s1.symmetric_difference(s2))
+    t_diffs = list(s1.difference(s2))
 
     return t_diffs
 
