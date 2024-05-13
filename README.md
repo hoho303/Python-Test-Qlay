@@ -1,7 +1,7 @@
 # 1. Installation
 ```
-git clone 
-cd 
+git clone https://github.com/hoho303/Python-Test-Qlay
+cd Python-Test-Qlay
 pip install -r requirements.txt
 ```
 

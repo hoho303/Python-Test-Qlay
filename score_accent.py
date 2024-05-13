@@ -54,8 +54,8 @@ def main():
                     'id': 0,
                     'speaker': speaker,
                     'text': text,
-                    'start': turn.start * 1000,
-                    'end': turn.end * 1000,
+                    'start': int(turn.start * 1000),
+                    'end': int(turn.end * 1000),
                     'highlights': [{
                         'type': 'wrong_grammar',
                         'text': wr_text
@@ -75,8 +75,8 @@ def main():
                     'id': 0,
                     'speaker': 'A',
                     'text': res['text'],
-                    'start': res['timestamp'][0] * 1000,
-                    'end': res['timestamp'][1] * 1000,
+                    'start': int(res['timestamp'][0] * 1000),
+                    'end': int(res['timestamp'][1] * 1000),
                     'highlights': [{
                         'type': 'wrong_grammar',
                         'text': wr_text

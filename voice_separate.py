@@ -64,8 +64,8 @@ def main():
                     'id': 0,
                     'speaker': 'A',
                     'text': res['text'],
-                    'start': res['timestamp'][0] * 1000,
-                    'end': res['timestamp'][1] * 1000
+                    'start': int(res['timestamp'][0] * 1000),
+                    'end': int(res['timestamp'][1] * 1000)
                 }
             )
     
