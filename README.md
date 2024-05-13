@@ -8,7 +8,7 @@ pip install -r requirements.txt
 # 2. Usage
 ## 2.1. Voice Seperation
 ```
-python voice_seperation.py <input_url> --num-speakers --out-file <output_file>
+python voice_separate.py <input_url> --num-speakers --out-file <output_file>
 ```
 - input_url: Youtube url of the input audio file, default is None
 - num-speakers: Number of speakers in the audio file, default is 1
@@ -16,7 +16,7 @@ python voice_seperation.py <input_url> --num-speakers --out-file <output_file>
 
 Example:
 ```
-python voice_seperation.py https://www.youtube.com/watch?v=54AYOd5S7uo --num-speakers 2 --out-file output.json
+python voice_separate.py https://www.youtube.com/watch?v=54AYOd5S7uo --num-speakers 1 --out-file output.json
 ```
 
 ## 2.2 Score Accent
